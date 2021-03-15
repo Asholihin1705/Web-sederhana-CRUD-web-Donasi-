@@ -1,0 +1,114 @@
+body{
+    background-color: azure;
+    padding: 0;
+    margin: 0;
+}
+
+#atas .container{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 750px;
+    margin-top: -20px;
+    position: relative;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border: 1px dashed grey;
+}
+#atas .row{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#atas .row h3{
+    text-align: center;
+}
+#atas .row h4{
+    text-align: center;
+}
+
+#isi .container{
+    margin-top: 50px;
+}
+#isi .grid-container {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+} 
+#isi .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+#isi a{
+    background-color: black;
+    color: white;
+}
+
+#donasi .container{
+    text-align: center;
+    margin-top: 40px;
+}
+#donasi .grid-container {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+} 
+#donasi .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+#donasi button{
+    background-color: rgb(131, 158, 247);
+    color: rgb(0, 0, 0);
+}
+
+#isi1 .container{
+    margin-top: 30px;
+}
+.container ul{
+    margin-top: 50px;
+}
+.container ul a{
+    background-color: transparent;
+    color: black;
+}
+#isi1 .container p{
+    text-align: justify;
+}
+
+#about{
+    background-color: #0a3142;
+    margin-top: 80px;
+    color: white;
+} 
+#about .container{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}  
+#about .container.footer .col-lg-6.col-md-6.col-sm-12.col-xs-12{
+    font-family:petitamedium;
+    color:#eee;
+}
+#about button{
+    background-color: rgb(255, 251, 251);
+    color: black;
+}
+  
+.from-grub{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+  
+#kaki{
+    color: rgb(19, 176, 243);
+    background-color: #1f1b19;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+}
